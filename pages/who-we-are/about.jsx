@@ -3,7 +3,7 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Image from 'next/image';
 import Link from 'next/link';
-import styles from '../../styles/about.module.css'; // Import CSS module
+import styles from './about.module.css'; // Import CSS module
 
 const AboutPage = () => {
   return (
