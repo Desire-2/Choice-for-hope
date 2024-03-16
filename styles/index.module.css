@@ -1,0 +1,58 @@
+/* index.module.css */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.description {
+  color: #666;
+  line-height: 1.6;
+}
+
+.subtitle {
+  color: #444;
+  margin-top: 30px;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.subtitle:hover {
+  color: #009688;
+}
+
+.highlight {
+  color: #ff6f61;
+}
+
+.motto {
+  font-style: italic;
+  color: #009688;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.visionMission {
+  margin-top: 30px;
+}
+
+.visionMission p {
+  margin-top: 10px;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.3s ease, max-height 0.3s ease;
+}
+
+.show {
+  opacity: 1;
+  max-height: 500px;
+}
