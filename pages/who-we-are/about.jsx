@@ -3,7 +3,7 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Image from 'next/image';
 import Link from 'next/link';
-import styles from './about.module.css'; // Import CSS module
+import styles from '../../styles/about.module.css'; // Import CSS module
 
 const AboutPage = () => {
   return (
@@ -43,12 +43,12 @@ const AboutPage = () => {
           <div className="container">
             <h2>What People Say About Us</h2>
             <div className={styles.testimonial}>
-              <p>"Choice for Hope Initiative has made a significant impact on our community. Their dedication and commitment to improving lives are commendable."</p>
-              <p className={styles['testimonial-author']}>- John Doe, Community Leader</p>
+              <p>&quot;Choice for Hope Initiative has made a significant impact on our community. Their dedication and commitment to improving lives are commendable.&quot;</p>
+              <p className={styles['testimonial-author']}>&ndash; John Doe, Community Leader</p>
             </div>
             <div className={styles.testimonial}>
-              <p>"I'm grateful for the support provided by Choice for Hope Initiative. They've helped me access healthcare services that I couldn't afford otherwise."</p>
-              <p className={styles['testimonial-author']}>- Jane Smith, Beneficiary</p>
+              <p>&quot;I&apos;m grateful for the support provided by Choice for Hope Initiative. They&apos;ve helped me access healthcare services that I couldn&apos;t afford otherwise.&quot;</p>
+              <p className={styles['testimonial-author']}>&ndash; Jane Smith, Beneficiary</p>
             </div>
           </div>
         </section>
