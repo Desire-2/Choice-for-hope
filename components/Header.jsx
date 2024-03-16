@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import styles from './Header.module.css';
 import Image from 'next/image'; // Import Image from next/image
-import { FaBars } from 'react-icons/fa'; // Import menu icon from react-icons
+// import { FaBars } from 'react-icons/fa'; // Import menu icon from react-icons
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
